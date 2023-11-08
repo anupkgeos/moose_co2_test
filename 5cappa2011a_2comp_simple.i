@@ -1,19 +1,4 @@
-# Problem description
-# Domain: 200m x 6 m
-# initial pressure: 5e6 Pa
-# initial xnacl: 0.1
-# left face: CO2 injection
-# right face: pressure 1e6
-# Top and Bottom: No flow boundary
-# Capillary pressure: Brooks-Corey: lambda = 2; entry pressure: 1e4 Pa
-# Relative permeability:Brooks-Corey: swr = 0.35 (Swetting), snr = 0.05
-# porosity: 0.26
-# Permeabiltiy: 1e-13
-
-# Goals:
-# 1. implement Hydro model only
-# 2. implement plastic model with mohr coulomb
-
+# Problem description - isothermal case
 [Mesh]
   [file_mesh]
     type = FileMeshGenerator
